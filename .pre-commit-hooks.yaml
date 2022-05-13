@@ -1,5 +1,5 @@
 -   id: commit-msg
-    name: Git Commit Messages Hook
+    name: commit-msg
     description: Git hook that enforces commit messages.
     entry: commit-msg
     language: script
