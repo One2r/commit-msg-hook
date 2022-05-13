@@ -2,5 +2,5 @@
     name: Git Commit Messages Hook
     description: Git hook that enforces commit messages.
     entry: commit-msg-hook
-    language: shell
-    types: [shell]
+    language: python
+    types: [python]
