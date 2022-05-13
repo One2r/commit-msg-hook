@@ -3,4 +3,3 @@
     description: Git hook that enforces commit messages.
     entry: commit-msg-hook
     language: script
-    types: [script]
