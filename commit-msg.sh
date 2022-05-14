@@ -13,7 +13,7 @@ if echo "$commitTitle" | grep -qE "^Merge branch \'"; then
 	exit 0
 fi
 
-if ! echo "$commitTitle" | grep -qE '^(feat|fix|docs|style|refactor|perf|test|chore|workflow|build|ci|release)(\(.+\))?: .{1,100}'; then
+if ! echo "$commitTitle" | grep -qE '^(feat|fix|docs|style|refactor|perf|test|chore|workflow|build|ci|release|revert)(\(.+\))?: .{1,100}'; then
 	echo "Bad formatted logging message"
 	echo "Please see https://github.com/One2r/commit-msg-hook"
 	exit 1
