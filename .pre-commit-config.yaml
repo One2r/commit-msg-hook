@@ -2,7 +2,6 @@
 # See https://pre-commit.com/hooks.html for more hooks
 repos:
   - repo: git@github.com:One2r/commit-msg-hook.git
-    rev: '2512d941c6cf79dabcb7a3845d9f082406cd2db7'
+    rev: 'ca2480d83aa7d3ce4341a378d3aad56d111f16bd'
     hooks:
       - id: commit-msg
-        stages: [commit-msg]
