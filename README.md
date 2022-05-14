@@ -1,18 +1,28 @@
 # commit-msg-hook
 Git hook that enforces semantic commit messages.
 
-## Usage
+## Installation
 
-### Manual installation 
+### Manual 
 ```
 curl --fail -o .git/hooks/commit-msg https://raw.githubusercontent.com/One2r/commit-msg-hook/master/commit-msg.sh && chmod 500 .git/hooks/commit-msg
 ```
 
-### Install By pre-commit
+### By pre-commit
 See detail by: https://pre-commit.com
 
+## Usage
 
-## Type 
+Git commit message format:
+```
+type: message
+```
+A example commit:
+```
+git commit -a -m "feat: a new featur"
+```
+
+### Type 
 Must be one of the following:
 
 * **feat**: a new feature is introduced with the changes
