@@ -1,6 +1,6 @@
 # commit-msg-hook
 
-### Type
+### Type 
 Must be one of the following:
 
 * **feat**: A new feature
