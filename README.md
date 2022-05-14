@@ -15,7 +15,7 @@ See detail by: https://pre-commit.com
 
 Git commit message format:
 ```
-type: message
+type(scope): message
 ```
 A example commit:
 ```
@@ -38,3 +38,6 @@ Must be one of the following:
 * **revert**: reverts a previous commit 
 * **workflow**:
 * **release**:
+
+### Scope
+The scope could be anything specifying place of the commit change. 
