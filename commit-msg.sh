@@ -15,6 +15,7 @@ fi
 
 if ! echo "$commitTitle" | grep -qE '^(feat|fix|docs|style|refactor|perf|test|chore|workflow|build|ci|release|revert)(\(.+\))?: .{1,100}'; then
 	echo "Bad formatted logging message"
+        echo "Use this format: feat|fix|docs|style|refactor|perf|test|chore|workflow|build|ci|release|revert: xxx"
 	echo "Please see https://github.com/One2r/commit-msg-hook"
 	exit 1
 fi
